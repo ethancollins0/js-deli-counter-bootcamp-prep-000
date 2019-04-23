@@ -5,7 +5,6 @@
 var ticketNumber = 1
 
 function takeANumber(line) {
-  var str = `${ticketNumber}`;
   ticketNumber++;
   line.push(ticketNumber);
   return str = `{ticketNumber}`
