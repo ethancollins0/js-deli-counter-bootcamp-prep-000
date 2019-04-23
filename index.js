@@ -20,7 +20,7 @@ function currentLine(line) {
         lineList += ",";        //need to check if the list is about to be complete
       }
     }
-    return lineList
+    return lineList;
   }
-  return "The line is currently empty."
+  return "The line is currently empty.";
 }
