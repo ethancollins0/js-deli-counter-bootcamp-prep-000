@@ -2,8 +2,9 @@
   line.push(name);
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 }*/
+var ticketNumber = 1
 function takeANumber(line) {
-
+  
 }
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0) {
