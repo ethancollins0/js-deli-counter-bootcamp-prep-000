@@ -5,7 +5,8 @@
 var ticketNumber = 1
 
 function takeANumber(line) {
-
+  var str = `${ticketNumber}`;
+  ticketNumber++;
 }
 
 function nowServing(katzDeliLine) {
