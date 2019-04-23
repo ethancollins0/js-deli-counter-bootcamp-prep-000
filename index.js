@@ -18,7 +18,7 @@ function currentLine(line) {
       lineList += ` ${i+1}. ${line[i]}`;
       if (i < line.length - 1) { //i doesn't increment until after loop, so we
         lineList += ",";        //need to check if the list is about to be complete
-      }
+      } //.join
     }
     return lineList;
   }
